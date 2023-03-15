@@ -12,7 +12,7 @@
         <h1>Conversor de Moedas v1.0</h1>
         <form action="fun.php" method="post">
             <legend>Quantos R$ você tem na carteira?:</legend>
-            <input type="number" name="numero" id="idnumero">
+            <input type="number" name="numero" id="idnumero" step=".02">
             <input type="submit" value="Calcular">
         </form>
     </main>
